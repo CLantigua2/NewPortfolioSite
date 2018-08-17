@@ -1,0 +1,12 @@
+.services {
+  padding: 24px 40px 24px 24px;
+  background-color: rgb(20, 166, 211);
+  min-height: 400px; 
+}
+
+.services h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: rgb(236, 184, 7);
+}
+

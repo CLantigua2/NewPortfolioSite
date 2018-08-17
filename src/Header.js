@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import Background from './img/backgroundImg.png';
+import Background from './img/purplebackground.png';
 import Avatar from './img/bitMoji.png';
 import './Header.css';
 
 const myStyles = {
   'backgroundImage': `url( ${Background} )`,
-  'height': '40vh',
-  'backgroundSize': 'cover'
+  'minheight': '60vh',
+  'backgroundSize': 'cover',
+  'padding': '40px',
 }
 
 class Header extends Component {
@@ -17,6 +18,7 @@ class Header extends Component {
           <img src={Avatar} alt="My avatar"></img>
           <h1>{this.props.title}</h1>
           <p className="subTitle">&#123; <span className="this">this</span>.Job = Developer &#125;</p>
+          <a href="#button">{this.props.button}</a>
         </div>
       </header>
     );

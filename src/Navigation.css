@@ -15,7 +15,6 @@
 }
 
 nav {
-  position: sticky;
   display: flex;
   font-family: 'Roboto Condensed', sans-serif;
   justify-content: space-between;
