@@ -2,12 +2,14 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://clantigua2.github.io/NewPortfolioSite",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.2",
     "@fortawesome/free-brands-svg-icons": "^5.1.0-11",
     "@fortawesome/free-regular-svg-icons": "^5.1.0-11",
     "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
     "@fortawesome/react-fontawesome": "^0.1.2",
+    "gh-pages": "^1.2.0",
     "i": "^0.3.6",
     "npm": "^6.4.0",
     "react": "^16.4.2",
@@ -16,6 +18,8 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
