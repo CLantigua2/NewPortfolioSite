@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 class AboutMe extends Component {
   render() {
     return (
-      <div className="about">
+      <div className="about" id="About">
         <div className="aboutBox">
           <Fade right>
             <div className="list">

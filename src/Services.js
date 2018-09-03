@@ -16,7 +16,7 @@ class Services extends Component {
 
   render() {
     return (
-      <div className="services" style={myStyles} Fade>
+      <div id="Services" className="services" style={myStyles} Fade>
         <div class="ProgressContainer">
           <Fade>
             <div class="progressBar">
