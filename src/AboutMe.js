@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './AboutMe.css';
+import './App.css';
 import Fade from 'react-reveal/Fade';
 
 class AboutMe extends Component {

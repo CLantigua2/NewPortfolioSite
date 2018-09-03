@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import './Services.css';
+import './App.css';
 import Background from './img/purplebackground.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 const myStyles = {
@@ -16,36 +15,47 @@ class Services extends Component {
   render() {
     return (
       <div className="services" style={myStyles}>
-        <h3>services</h3>
-        <h2>What I Offer</h2>
-        <div className="row">
-          <div>
-            <span>
-              <i className="fab fa-react"></i>
-            </span>
-            <h4>Responsive</h4>
-            <p>Looks great on any size!</p>
+        <div class="ProgressContainer">
+          <div class="progressBar">
+            <h4>HTML5</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-100"></div>
+            </div>
           </div>
-          <div>
-            <span>
-              <ion-icon name="brush"></ion-icon>
-            </span>
-            <h4>Redesigned</h4>
-            <p>Freshly redesigned for bootstrap 4.</p>
+
+          <div class="progressBar">
+            <h4>CSS</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-70"></div>
+            </div>
           </div>
-          <div>
-            <span>
-              <ion-icon name="thumbs-up"></ion-icon>
-            </span>
-            <h4>Favorited</h4>
-            <p>Millions of users <ion-icon name="heart"></ion-icon> start Bootstrap!</p>
+
+          <div class="progressBar">
+            <h4>Responsive Design</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-80"></div>
+            </div>
           </div>
-          <div>
-            <span>
-              <ion-icon name="help"></ion-icon>
-            </span>
-            <h4>Question</h4>
-            <p>I must ask you a question.</p>
+
+          <div class="progressBar">
+            <h4>JavaScript</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-70"></div>
+            </div>
+          </div>
+
+          <div class="progressBar">
+            <h4>ReactJS</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-60"></div>
+            </div>
+          </div>
+
+          <div class="progressBar">
+            <h4>Backend</h4>
+            <div class="progressBarContainer">
+              <div class="progressBarValue value-30"></div>
+            </div>
           </div>
         </div>
       </div>

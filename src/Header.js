@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Background from './img/purplebackground.png';
 import Avatar from './img/bitMoji.png';
-import './Header.css';
+import './App.css';
 
 const myStyles = {
   'backgroundImage': `url( ${Background} )`,
