@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Background from './img/purplebackground.png';
+import Fade from 'react-reveal/Fade';
+
 
 
 const myStyles = {
@@ -14,51 +16,63 @@ class Services extends Component {
 
   render() {
     return (
-      <div className="services" style={myStyles}>
+      <div className="services" style={myStyles} Fade>
         <div class="ProgressContainer">
-          <div class="progressBar">
-            <h4>HTML5</h4>
-            <div class="progressBarContainer">
-              <div class="progressBarValue value-100"></div>
+          <Fade>
+            <div class="progressBar">
+              <h4>HTML5</h4>
+              <div class="progressBarContainer">
+                <div class="progressBarValue value-100"></div>
+              </div>
             </div>
-          </div>
+          </Fade>
 
-          <div class="progressBar">
-            <h4>CSS</h4>
-            <div class="progressBarContainer">
-              <div class="progressBarValue value-70"></div>
+          <Fade>
+            <div class="progressBar">
+              <h4>CSS</h4>
+              <div class="progressBarContainer">
+                <div class="progressBarValue value-70"></div>
+              </div>
             </div>
-          </div>
+          </Fade>
 
-          <div class="progressBar">
-            <h4>Responsive Design</h4>
-            <div class="progressBarContainer">
-              <div class="progressBarValue value-80"></div>
+          <Fade>
+            <div class="progressBar">
+              <h4>Responsive Design</h4>
+              <div class="progressBarContainer">
+                <div class="progressBarValue value-80"></div>
+              </div>
             </div>
-          </div>
+          </Fade>
 
-          <div class="progressBar">
-            <h4>JavaScript</h4>
-            <div class="progressBarContainer">
-              <div class="progressBarValue value-70"></div>
+          <Fade>
+            <div class="progressBar">
+              <h4>JavaScript</h4>
+              <div class="progressBarContainer">
+                <div class="progressBarValue value-80"></div>
+              </div>
             </div>
-          </div>
+          </Fade>
 
-          <div class="progressBar">
-            <h4>ReactJS</h4>
-            <div class="progressBarContainer">
-              <div class="progressBarValue value-60"></div>
+          <Fade>
+            <div class="progressBar">
+              <h4>ReactJS</h4>
+              <div class="progressBarContainer">
+                <div class="progressBarValue value-70"></div>
+              </div>
             </div>
-          </div>
+          </Fade>
 
-          <div class="progressBar">
-            <h4>Backend</h4>
-            <div class="progressBarContainer">
-              <div class="progressBarValue value-30"></div>
+          <Fade>
+            <div class="progressBar">
+              <h4>Backend</h4>
+              <div class="progressBarContainer">
+                <div class="progressBarValue value-30"></div>
+              </div>
             </div>
-          </div>
+          </Fade>
         </div>
-      </div>
+      </div >
     )
   }
 };

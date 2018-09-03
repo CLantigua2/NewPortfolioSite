@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -134,31 +138,50 @@ header a {
 
 header a:hover {
   background-color: red;
+  color: yellow;
 }
 
 /* About */
 
 .about {
+
   margin: 0 auto;
-  text-align: center;
   padding: 30px 30px 90px 30px;
   /*background-color: rgb(41, 201, 250);*/
   min-height: 650px;
-  max-width: 600px;
+  max-width: 1100px;
 }
 
 .aboutBox {
-  float: left;
   padding: 24px;
+  display: flex;
 }
 
 .about h1 {
+  border-bottom: 5px solid black;
+  display: block;
   margin: 0 10px;
   font-weight: 700;
   font-family: 'Courgette', cursive;
   font-size: 4em;
 }
 
+.about .aboutBox .list ul {
+  list-style-type: none;
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+.about .aboutBox .list ul li {
+  margin-right: 25px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  -webkit-transition: 0.6s ease-in-out;
+}
+
+.react-reveal {
+  padding-right: 45px;
+}
 .about p{
   max-width: 500px;
   padding: 14px;
@@ -169,6 +192,7 @@ header a:hover {
 .redLetter {
   color: rgb(255, 0, 0);
 }
+
 
 /* Services */
 
@@ -241,14 +265,12 @@ header a:hover {
   border: solid 5px #dbdbdb;
 }
 
-/* Progress Bars */
-
-.progressBar {
+.ProgressContainer .progressBar {
   margin-bottom: 26px;
   margin-bottom: 1.66em;
 }
 
-.progressBar h4 {
+.ProgressContainer .progressBar h4 {
   font-size: 21px;
   font-size: 1.33em;
   text-transform: none;
