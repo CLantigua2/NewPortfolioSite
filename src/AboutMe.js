@@ -29,7 +29,7 @@ class AboutMe extends Component {
               <ul>
                 <li>Step 1. Make a plan</li>
                 <li>Step 2. Train minion</li>
-                <li>Step 3...</li>
+                <li>Step 3. ........</li>
                 <li>Step 4. Profit!</li>
               </ul>
             </div>
