@@ -21,10 +21,6 @@ body {
   letter-spacing: 4px;
   font-size: 25px;
   padding: 8px;
-  /*border-radius: 8px;
-  -webkit-box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.5);
-  box-shadow: 0px 0px 24px -1px rgba(0,0,0,0.5);*/
 }
 
 nav {
@@ -341,3 +337,4 @@ header a:hover {
 .value-80 { width: 80%; }
 .value-90 { width: 90%; }
 .value-100 { width: 100%; }
+/* end of progress bar */
